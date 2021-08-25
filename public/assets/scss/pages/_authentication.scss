@@ -1,0 +1,18 @@
+.auth-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+
+	&-brand {
+		width: 5rem;
+		filter: drop-shadow(0 4px 6px rgba($black, .2));
+	}
+
+	&-title {
+		font-size: 1.3rem;
+		margin: 1.5rem 0 2.4rem;
+	}
+}

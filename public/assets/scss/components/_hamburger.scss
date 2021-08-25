@@ -1,0 +1,39 @@
+.hamburger {
+	position: relative;
+	width: $hamburger-box-size;
+	height: $hamburger-box-size / 1.4; 
+	
+	&-icon,
+	&:before,
+	&:after {
+		position: absolute;
+		left: 0;
+		display: block;
+		height: $hamburger-height;
+		background: $navbar-light-color;
+		border-radius: 10px;
+		-webkit-transition: .3s;
+		transition: .3s;
+	}
+
+	&:after,
+	&:before {
+		content: '';
+	}
+
+	&:before {
+		top: 0;
+		width: 92%;
+	}
+
+	&-icon {
+		width: 75%;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&:after {
+		bottom: 0;
+		width: 100%;
+	}
+}

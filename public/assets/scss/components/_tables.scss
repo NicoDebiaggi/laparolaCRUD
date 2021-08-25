@@ -1,0 +1,9 @@
+.table {
+	margin-bottom: 0;
+	
+	thead th {
+		padding-top: $table-cell-padding / 1.5;
+		padding-bottom: $table-cell-padding / 1.5;
+		background: rgba($primary, .08);
+	}
+}

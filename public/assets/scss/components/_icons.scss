@@ -1,0 +1,37 @@
+.icon {
+	padding: 1rem;
+	border-radius: $border-radius-sm;
+	max-width: 200px;
+	min-width: 250px;
+	display: flex;
+	align-items: center;
+	margin: $spacer; 
+	transition: .123s;
+	box-shadow: $box-shadow;
+	background: $gray-100;
+
+	i {
+		font-size: 1.1rem;
+		display: block;
+		margin-right: 1rem;
+		transition: margin .123s, transform .123s;
+
+	}
+
+	span {
+		display: block;
+		font-size: .8rem;
+	}
+
+	&:hover,
+	&:focus {
+		background: $primary;
+		color: white;
+
+		i {
+			transform: scale(2);
+			margin-right: 1.2rem;
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+.card {
+	box-shadow: $box-shadow;
+	margin-bottom: $spacer * 2;
+	overflow: hidden;
+
+	// card header and footer 
+	&-header,
+	&-footer {
+		background: $card-bg;
+		border: 0;
+	}
+
+	&-header {
+		padding-top: 1rem;
+		padding-bottom: 1rem; 
+	} 
+	
+	// card title
+	&-title {
+		margin-bottom: 0;
+		position: relative;
+		
+		&:after {
+			content: '';
+			width: 2rem;
+			height: .2rem;
+			background: $primary;
+			display: block;
+			margin: .45rem 0 0 .05rem;
+			opacity: .5;
+		}
+	}
+}

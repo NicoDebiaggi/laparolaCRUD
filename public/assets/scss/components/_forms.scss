@@ -1,0 +1,75 @@
+.search-box {
+	position: relative;
+	width: 350px;
+	height: 37px;
+	transition: .5s;
+	transition-timing-function: cubic-bezier(0.075, 0.820, 0.165, 1.000);
+
+	&-input {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		padding-left: 37px;
+		color: $body-color;
+		font-weight: 300;
+
+		&:focus {
+			color: $body-color;
+		}
+	}
+
+	&-icon {
+		position: absolute;
+		top: 50%;
+		left: 20px;
+		transform: translate(-50%, -50%);
+		font-size: 19px !important;
+		pointer-events: none;
+
+	}
+}
+
+.form-control {
+	box-shadow: $input-box-shadow;
+
+	&:focus {
+		box-shadow: $input-focus-box-shadow;
+	}
+}
+
+
+
+/////////////////////////////////////////////////
+// Login Form
+.login-form {
+	position: relative;
+	max-width: 24rem;
+	width: 95%;
+
+	&-input {
+		
+		&:nth-child(1) {
+			border-bottom-right-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+
+		&:nth-child(2) {
+			border-top-right-radius: 0;
+			border-top-left-radius: 0;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

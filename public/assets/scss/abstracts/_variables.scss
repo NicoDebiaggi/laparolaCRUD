@@ -1,0 +1,253 @@
+////////////////////////////////////////
+// Colors
+$white:    #fff;
+$gray-100: #eff1f4;
+$gray-200: #d2d4d8;
+$gray-300: #c3c6cc;
+$gray-400: #727986;
+$gray-500: #475364;
+$gray-600: #1f2837;
+$gray-700: #161d2b;
+$gray-800: #0d141e;
+$gray-900: #070b11; 
+$black:  #000;
+
+$grays: (
+  100: $gray-100,
+  200: $gray-200,
+  300: $gray-300,
+  400: $gray-400,
+  500: $gray-500,
+  600: $gray-600,
+  700: $gray-700,
+  800: $gray-800,
+  900: $gray-900
+);
+
+$blue:    #1F95E2;
+$indigo:  #c71f36;
+$purple:  #8b7eef;
+$pink:    #e83e8c;
+$red:     #f97a7a;
+$orange:  #e09447;
+$yellow:  #f97f67;
+$green:   #b5c900;
+$teal:    #20c997;
+$cyan:    #77beea;
+$graylight: #d2d9de;
+
+
+$primary:       $blue;
+$secondary:     $gray-400;
+$success:       $green;
+$info:          $cyan;
+$warning:       $orange;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+
+
+
+$body-bg:       $gray-100;
+$body-color:    $gray-500;
+
+
+
+/////////////////////////////////////////////
+// Spacing 
+$spacer: 1rem;
+
+
+
+/////////////////////////////////////////////
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-shadows:                              true;
+$enable-hover-media-query:                    true;
+$enable-responsive-font-sizes:                true;
+
+
+
+/////////////////////////////////////////////////
+// dashboard
+$root-content-padding-x: $spacer / 2;
+
+
+
+/////////////////////////////////////////////////
+// navbar
+$navbar-padding-y:                  5px;
+$navbar-padding-x:                  $spacer;
+$navbar-height:                     60px;
+
+
+
+/////////////////////////////////////////////////
+// sidebar
+$sidebar-bg: 					$gray-500;
+$sidebar-width: 				250px;
+$sidebar-link-color: 			$gray-200;
+$sidebar-link-active-color: 	$gray-100;
+$sidebar-padding-y: 			10px;
+$sidebar-item-padding-y: 		8px;
+$sidebar-item-padding-x: 		10px;
+
+
+
+/////////////////////////////////////////////
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+
+
+
+
+/////////////////////////////////////////////
+// Components - Define common padding and border radius sizes and more.
+$border-radius:          .4rem;
+$border-radius-lg:       .6rem;
+$border-radius-sm:       .2rem;
+
+$border-color:                $gray-200;
+
+
+/////////////////////////////////////////////
+// Breadcrumb
+$breadcrumb-padding-y:          .3rem;
+$breadcrumb-padding-x:          0;
+$breadcrumb-bg:                 transparent;
+$breadcrumb-divider:            "/";
+$breadcrumb-border-width:       0;
+
+
+
+/////////////////////////////////////////////
+// Dropdowns
+$dropdown-item-padding-x:        1.2rem;
+$dropdown-item-padding-y:        .3rem;
+
+
+
+////////////////////////////////////////////
+// Inputs & Buttons 
+$input-btn-padding-y:       	.55rem;
+$input-btn-padding-x:       	.85rem;
+$input-btn-line-height:     	1.25;
+$input-btn-padding-y-sm:    	.35rem;
+$input-btn-padding-x-sm:    	.6rem;
+$input-btn-line-height-sm:  	1.5;
+$input-btn-padding-y-lg:    	.5rem;
+$input-btn-padding-x-lg:    	1.3rem;
+$input-btn-line-height-lg:  	1.5;
+
+// inputs
+$input-bg:                      rgba(200,200,200, .3);
+$input-border-color:            transparent;
+$input-focus-border-color:      transparent;
+$input-box-shadow:              0 1px 1px rgba(0,0,0,.2);
+$input-focus-box-shadow:        inset 0 1px 2px rgba($black,.1);
+$input-placeholder-color:       rgba($gray-600, .5);
+$input-border-width: 			0;
+
+
+
+
+/////////////////////////////////////////////////
+// hamburger button
+$hamburger-box-size:      20px;
+$hamburger-height:        2px;
+
+
+
+/////////////////////////////////////////////////
+// Progress bars
+$progress-height:            .9rem;
+$progress-font-size:         $font-size-base * .3;
+
+
+
+/////////////////////////////////////////////////
+// Pagination
+$pagination-padding-y:        .4rem;
+$pagination-padding-x:        .7rem;
+$pagination-disabled-bg:      rgba($white, .2);
+$pagination-color:            $gray-600;
+
+$pagination-bg:               rgba($white, .4);
+
+
+
+/////////////////////////////////////////////////
+// Tables
+$table-cell-padding:          .6rem;
+$table-cell-padding-sm:       .3rem;
+
+
+
+/////////////////////////////////////////////////
+// Z indexes
+$navbar-zindex: 999;
+$sidebar-zindex: 1000;
+// $content-zindex: 990;
+
+
+
+/////////////////////////////////////////////////
+// Cards 
+
+
+
+/////////////////////////////////////////////////
+// Tables 
+$table-cell-padding:          1rem;
+$table-cell-padding-sm:       .5rem;
+$table-hover-bg:              rgba($black, .025);
+$table-border-color:          $gray-100;
+$table-head-bg:               $primary;
+$table-bg-level:              -8;
+
+
+
+/////////////////////////////////////////////////
+// Typography
+$text-muted:                  $gray-400;
+$line-height-base:            1.7;
+
+
+
+/////////////////////////////////////////////////
+// Progress Bars
+$progress-height:                   .8rem;
+// $progress-font-size:                $font-size-base * .75 !default;
+// $progress-bg:                       $gray-200 !default;
+// $progress-border-radius:            $border-radius !default;
+// $progress-box-shadow:               inset 0 .1rem .1rem rgba($black, .1) !default;
+// $progress-bar-color:                $white !default;
+// $progress-bar-bg:                   theme-color("primary") !default;
+// $progress-bar-animation-timing:     1s linear infinite !default;
+// $progress-bar-transition:           width .6s ease !default;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

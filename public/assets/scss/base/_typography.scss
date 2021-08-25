@@ -1,0 +1,5 @@
+p {
+	font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+	margin-bottom: 12px;
+	letter-spacing: .6px;
+} 
